@@ -1,3 +1,109 @@
+/*Header*/
+.UpperHeader {
+    background-color: #00CFFF;
+    max-height: 36px;
+}
+.mail {
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: 'Acme', cursive;
+    font-size: 16px;
+}
+.HeaderFlags {
+    height: 100%;
+    float: right;
+    margin-right: 15px;
+    vertical-align: center;
+}
+.HeaderSocialMedias {
+    float: right;
+    transform: translateY(10%);
+    border-left: 1px solid whitesmoke;
+    padding-left: 10px;
+    margin-right: 10px;
+}
+/*ICONS (font-awesome)*/
+.fa {
+    text-decoration: none;
+    font-size: 20px;
+    color: whitesmoke;
+}
+.fa-envelope {
+    padding: 10px;
+    margin-left: 5px;
+}
+.fa-facebook {
+    padding: 6px;
+}
+.fa-github {
+    padding: 6px;
+}
+.fa-linkedin {
+    padding: 6px;
+}
+.fa-github:hover {
+
+    transform: scale(1.20);
+    color: #24292e;
+}
+.fa-linkedin:hover {
+
+    transform: scale(1.20);
+    color: #006097;
+}
+.fa-facebook:hover {
+    transform: scale(1.20);
+    color: #3B5998;
+}
+@media (max-width: 372px) {
+    .fa-envelope {
+        visibility: hidden;
+    }
+}
+/*FLAGS ICONS*/
+.flag-icon {
+    transform: translateY(50%);
+    margin: 3px;
+    font-size: 16px;
+    float: right;
+    display: inline-block;
+}
+.flag-icon:hover {
+    opacity: 0.9;
+}
+/*Pulse animation icons*/
+.pulse {
+    cursor: pointer;
+    box-shadow: 0 0 0 #00FFFF;
+    animation: pulse 4s infinite;
+}
+@-webkit-keyframes pulse {
+    0% {
+        -webkit-box-shadow: 0 0 0 0 #00FFFF;
+    }
+    70% {
+        -webkit-box-shadow: 0 0 0 2px  #00FFFF;
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 0 #00FFFF;
+    }
+}
+@keyframes pulse {
+    0% {
+        -moz-box-shadow: 0 0 0 0 #00FFFF;
+        box-shadow: 0 0 0 0 #00FFFF;
+    }
+    70% {
+        -moz-box-shadow: 0 0 0 2px  #00FFFF;
+        box-shadow: 0 0 0 2px  #00FFFF;
+    }
+    100% {
+        -moz-box-shadow: 0 0 0 2px  #00FFFF;
+        box-shadow: 0 0 0 2px #00FFFF;
+    }
+}
+
+
 
 
 
