@@ -12,7 +12,7 @@ class Introduction extends Component {
         return (
             <div className="container">
                 <img src={portofolio} alt="portofolio_logo" />
-                <div className="quadrate_left" style={{animationName:'example_quadrate_1'}}>
+                <div className="quadrate_left" id="tree" style={{animationName:'example_quadrate_1'}}>
                     Wykształcenie
                 </div>
                 <div className="quadrate_left" style={{animationName:'example_quadrate_2'}}>
