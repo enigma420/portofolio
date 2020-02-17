@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import TechStackIconTable from "./TechStackIconTable";
+import ProjectTable from "./ProjectTable";
 
 
 class TechnologicalStack extends Component {
@@ -7,6 +8,8 @@ class TechnologicalStack extends Component {
         return (
             <div>
                <TechStackIconTable/>
+               <hr/>
+               <ProjectTable/>
             </div>
         );
     }

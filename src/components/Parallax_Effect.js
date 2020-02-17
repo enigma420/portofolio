@@ -14,17 +14,17 @@ const UpperStyles = {
     left: "50%",
     transform: "translate(-50%,-50%)",
     borderRadius:"8%",
-    border:'1px solid black'
+    border:'1px solid black',
 };
 
 class ParallaxEffect extends Component {
     render() {
         return (
             <div>
-                <div>
+
                     {/* -----renderProp: "renderLayer"-----*/}
-                    <Parallax bgImage={photo} strength={1000}>
-                        <div style={{ height: 400 }}>
+                    <Parallax bgImage={photo} strength={800}>
+                        <div style={{ height:800}}>
                             <div style={UpperStyles}> <TechnologicalStack/></div>
                         </div>
                     </Parallax>
@@ -33,7 +33,7 @@ class ParallaxEffect extends Component {
                     {/*        <div style={UpperStyles}>HTML inside the parallax</div>*/}
                     {/*    </div>*/}
                     {/*</Parallax>*/}
-                </div>
+
             </div>
         );
     }
