@@ -7,12 +7,9 @@ import Parallax_Effect from "./components/Parallax_Effect";
 function App() {
   return (
     <>
-
             <Header/>
             <Introduction/>
             <Parallax_Effect/>
-
-
     </>
   );
 }

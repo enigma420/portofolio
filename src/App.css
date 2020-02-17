@@ -7,6 +7,14 @@ html, body {
     position: relative;
 }
 
+@font-face {
+    font-family: '&Matchmaker';
+    font-style: normal;
+    font-weight: normal;
+    src: local('&Matchmaker'), url('fonts/&Matchmaker.ttf') format('truetype');
+}
+
+
 /*Header*/
 .UpperHeader {
     background-color: deepskyblue;

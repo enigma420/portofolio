@@ -5,38 +5,33 @@ const icon = {
     width:"auto",
     height:"auto",
     textAlign:"center",
-    margin:50,
+    margin:5,
 
-    borderRadius:"25%"
 };
 const iconParameter = {
-    width:150,
-    height:150,
-
+    width:35,
+    height:35,
 };
 const iconNameParameter = {
     fontFamily:"Verdana, sans-serif",
     color:'whitesmoke',
-    fontSize:24,
-
+    fontSize:12,
+    textShadow: "-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black",
 }
-
-
-
-
 class Icon extends Component {
-
-
     render() {
         return (
             <div className="column" style={icon}>
-                <p style={iconNameParameter}>{this.props.iconName}</p>
+
                 <img src={this.props.imgName} style={iconParameter} alt={this.props.alt}/>
-                <div>
+                <h1 style={iconNameParameter}>{this.props.iconName}</h1>
+                <div >
+
                     <Ratings
                         rating={this.props.starRating}
-                        widgetDimensions="24px"
-                        widgetSpacings="3px"
+                        widgetDimensions="10px"
+                        widgetSpacings="0.1px"
+
                     >
                         <Ratings.Widget widgetRatedColor="gold" />
                         <Ratings.Widget widgetRatedColor="gold" />
@@ -45,6 +40,7 @@ class Icon extends Component {
                         <Ratings.Widget widgetRatedColor="gold" />
                     </Ratings>
                 </div>
+
             </div>
         );
     }

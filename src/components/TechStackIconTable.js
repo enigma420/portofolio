@@ -19,24 +19,29 @@ const TechStack = {
         margin: "auto",
         display: "inline-block",
         alignItems:'center'
-
-
-
-}
+};
 const TechStackTable = {
 
     alignItems:'center'
-}
+};
 const ParagrafTechStack = {
-
+    textShadow: "-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black",
+    margin:2,
     textAlign:'center',
-
+    fontFamily:"'Verganaw' , sans-serif",
+    color:'whitesmoke'
+};
+const ShowUpButton = {
+    width:'auto',
+    height:'auto',
+    textAlign:'center',
+    margin:5
 }
 class TechStackIconTable extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            isToggle: true,
+            isToggle: false,
         };
         this.handleClick = this.handleClick.bind(this);
     }
@@ -46,17 +51,23 @@ class TechStackIconTable extends Component {
             isToggleOn: !state.isToggleOn
         }));
     }
+    ToggleOffIcon= () => {
+        return (
+            <div>
+                <h4>Chuj ci w dupe cwelu</h4>
+            </div>
+        )
+    }
     render() {
         return (
-
             <div style={TechStackTable}>
                 <p style={ParagrafTechStack}>
-                    <h2>FRONT-END</h2>
-                    <div>
-                        <td style={TechStack}>
-                            <Icon onClick={this.handleClick} imgName={React_photo} starRating={3} iconName={"React"} alt={"React_Icon"}/>
-                                <button onClick={this.handleClick}>{this.state.isToggleOn ? 'YEAH' : 'NOPE'}</button>
+                    <h2>STOS TECHNOLOGICZNY</h2>
+                    <div> onClick={this.handleClick}
 
+                        <td style={TechStack}>
+                            <button type="button" className="btn btn-dark" style={ShowUpButton}>Light</button>
+                            <Icon imgName={React_photo} starRating={3} iconName={"React"} alt={"React_Icon"}/>{this.state.isToggleOn ?  this.ToggleOffIcon() : ''}
                         </td>
                         <td style={TechStack}>
                             <Icon imgName={Html_photo} starRating={3.5} iconName={"Html"} alt={"Html_Icon"}/>
@@ -64,29 +75,21 @@ class TechStackIconTable extends Component {
                         <td style={TechStack}>
                             <Icon imgName={Css_photo} starRating={3.5} iconName={"Css"} alt={"Css_Icon"}/>
                         </td>
-                    </div>
 
-                </p>
-                <p  style={ParagrafTechStack}>
-                    <h2>BACK-END</h2>
                     <td style={TechStack}>
                         <Icon imgName={Java_photo} starRating={3} iconName={"Java"} alt={"Java_Icon"}/>
                     </td>
                     <td style={TechStack}>
                         <Icon imgName={Spring_photo} starRating={2} iconName={"Spring"} alt={"Spring_Icon"}/>
                     </td>
-                </p>
-                <p style={ParagrafTechStack}>
-                    <h2>DATABASES</h2>
+
                     <td style={TechStack}>
                         <Icon imgName={Sql_photo} starRating={2} iconName={"Sql"} alt={"Sql_Icon"}/>
                     </td>
                     <td style={TechStack}>
                         <Icon imgName={MongoDB_photo} starRating={1} iconName={"MongoDB"} alt={"MongoDB_Icon"}/>
                     </td>
-                </p>
-                <p style={ParagrafTechStack}>
-                    <h2>OTHERS</h2>
+
                     <td style={TechStack}>
                         <Icon imgName={Linux_photo} starRating={1} iconName={"Linux"} alt={"Linux_Icon"}/>
                     </td>
@@ -102,6 +105,7 @@ class TechStackIconTable extends Component {
                     <td style={TechStack}>
                         <Icon imgName={RestApi_photo} starRating={2} iconName={"RestApi"} alt={"RestApi_Icon"}/>
                     </td>
+                    </div>
                 </p>
 
 

@@ -5,7 +5,7 @@ import TechStackIconTable from "./TechStackIconTable";
 class TechnologicalStack extends Component {
     render() {
         return (
-            <div >
+            <div>
                <TechStackIconTable/>
             </div>
         );
