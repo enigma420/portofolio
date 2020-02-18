@@ -3,6 +3,7 @@ import TechStackIconTable from "./TechStackIconTable";
 import ProjectTable from "./ProjectTable";
 import InterestsAndPassions from "./InterestsAndPassions";
 import Education from "./Education";
+import EducationTechStack from "./EducationTechStack";
 
 
 class TechnologicalStack extends Component {
@@ -16,6 +17,8 @@ class TechnologicalStack extends Component {
                <InterestsAndPassions/>
                <hr/>
                <Education/>
+               <hr/>
+               <EducationTechStack/>
             </div>
         );
     }
