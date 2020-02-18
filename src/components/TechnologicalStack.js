@@ -5,6 +5,7 @@ import InterestsAndPassions from "./InterestsAndPassions";
 import Education from "./Education";
 import EducationTechStack from "./EducationTechStack";
 import Languages from "./Languages";
+import Certification from "./Certification";
 
 
 class TechnologicalStack extends Component {
@@ -22,6 +23,8 @@ class TechnologicalStack extends Component {
                <EducationTechStack/>
                <hr/>
                <Languages/>
+               <hr/>
+               <Certification/>
             </div>
         );
     }
