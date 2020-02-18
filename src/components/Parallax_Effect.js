@@ -24,7 +24,7 @@ class ParallaxEffect extends Component {
 
                     {/* -----renderProp: "renderLayer"-----*/}
                     <Parallax bgImage={photo} strength={800}>
-                        <div style={{ height:800}}>
+                        <div style={{ height:1200}}>
                             <div style={UpperStyles}> <TechnologicalStack/></div>
                         </div>
                     </Parallax>

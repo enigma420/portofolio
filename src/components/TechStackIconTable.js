@@ -39,6 +39,10 @@ const ShowUpButton = {
     fontSize:9,
     fontWeight:"bolder",
 }
+const hr = {
+    margin:25,
+}
+
 class TechStackIconTable extends Component {
     constructor(props) {
         super(props);
@@ -64,7 +68,9 @@ class TechStackIconTable extends Component {
         return (
             <div style={TechStackTable}>
                 <p style={ParagrafTechStack}>
+                    <hr style={hr}/>
                     <h2>STOS TECHNOLOGICZNY</h2>
+                    <hr/>
                     <div>
 
                         <td style={TechStack}>
