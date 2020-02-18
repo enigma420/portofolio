@@ -25,16 +25,16 @@ class InterestsAndPassions extends Component {
                         <hr/>
                         <ul style={ListParameters}>
                             <li>Inżynieria Oprogramowania</li>
-                            <li>Automatyka(Sterowniki PLC, Procesy Technologiczne)</li>
+                            <li>Automatyka (Sterowniki PLC, Procesy Technologiczne)</li>
                             <li>Elektronika</li>
-                            <li>Sterowanie(Automatyzacja Procesów)</li>
-                            <li>Medycyna(Układ neurologiczny/immulogiczny)</li>
+                            <li>Sterowanie (Automatyzacja Procesów)</li>
+                            <li>Medycyna (Układ neurologiczny/immulogiczny)</li>
                         </ul>
                     </div>
                     <div className="column">
                         <h2>HOBBY</h2>
                         <hr/>
-                        <ul style={ListParameters} >
+                        <ul style={ListParameters}>
                             <li>
                                 Sport:
                                 <ul>
@@ -45,6 +45,7 @@ class InterestsAndPassions extends Component {
                             </li>
                             <li>Kinematografia</li>
                             <li>Muzyka 50'-80'</li>
+                            <li>Zdrowy Tryb Życia</li>
                         </ul>
                     </div>
             </div>
