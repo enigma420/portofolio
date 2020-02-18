@@ -20,7 +20,9 @@ html, body {
     background-color: deepskyblue;
     height: 47px;
     border-bottom: 2px groove whitesmoke;
-
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
 
 .mail {
@@ -346,5 +348,11 @@ img {
     transform:scale(1.2);
 }
 
+.row {
+    display: flex;
+}
 
+.column {
+    flex: 50%;
+}
 

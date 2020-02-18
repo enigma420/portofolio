@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import TechStackIconTable from "./TechStackIconTable";
 import ProjectTable from "./ProjectTable";
+import InterestsAndPassions from "./InterestsAndPassions";
 
 
 class TechnologicalStack extends Component {
@@ -10,6 +11,8 @@ class TechnologicalStack extends Component {
                <TechStackIconTable/>
                <hr/>
                <ProjectTable/>
+               <hr/>
+               <InterestsAndPassions/>
             </div>
         );
     }
