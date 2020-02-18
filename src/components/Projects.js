@@ -9,8 +9,9 @@ const projectIcon = {
 
 };
 const projectIconParameters = {
-    width:200,
-    height:200,
+    width:125,
+    height:125,
+    border:'1px solid black'
 };
 const projectIconNameParameter = {
     fontFamily:"Verdana, sans-serif",
