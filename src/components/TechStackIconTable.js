@@ -28,14 +28,16 @@ const ParagrafTechStack = {
     textShadow: "-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black",
     margin:2,
     textAlign:'center',
-    fontFamily:"'Verganaw' , sans-serif",
+    fontFamily:"'Vergana' , sans-serif",
     color:'whitesmoke'
 };
 const ShowUpButton = {
     width:'auto',
     height:'auto',
     textAlign:'center',
-    margin:5
+    margin:1,
+    fontSize:9,
+    fontWeight:"bolder",
 }
 class TechStackIconTable extends Component {
     constructor(props) {
@@ -63,46 +65,57 @@ class TechStackIconTable extends Component {
             <div style={TechStackTable}>
                 <p style={ParagrafTechStack}>
                     <h2>STOS TECHNOLOGICZNY</h2>
-                    <div> onClick={this.handleClick}
+                    <div>
 
                         <td style={TechStack}>
-                            <button type="button" className="btn btn-dark" style={ShowUpButton}>Light</button>
+                            <button type="button" className="btn btn-dark" style={ShowUpButton} onClick={this.handleClick}>Show Up!</button>
                             <Icon imgName={React_photo} starRating={3} iconName={"React"} alt={"React_Icon"}/>{this.state.isToggleOn ?  this.ToggleOffIcon() : ''}
                         </td>
                         <td style={TechStack}>
-                            <Icon imgName={Html_photo} starRating={3.5} iconName={"Html"} alt={"Html_Icon"}/>
+                            <button type="button" className="btn btn-dark" style={ShowUpButton} onClick={this.handleClick}>Show Up!</button>
+                            <Icon imgName={Html_photo} starRating={3.5} iconName={"Html"} alt={"Html_Icon"}/>{this.state.isToggleOn ?  this.ToggleOffIcon() : ''}
                         </td>
                         <td style={TechStack}>
+                            <button type="button" className="btn btn-dark" style={ShowUpButton} onClick={this.handleClick}>Show Up!</button>
                             <Icon imgName={Css_photo} starRating={3.5} iconName={"Css"} alt={"Css_Icon"}/>
                         </td>
 
                     <td style={TechStack}>
+                        <button type="button" className="btn btn-dark" style={ShowUpButton} onClick={this.handleClick}>Show Up!</button>
                         <Icon imgName={Java_photo} starRating={3} iconName={"Java"} alt={"Java_Icon"}/>
                     </td>
                     <td style={TechStack}>
+                        <button type="button" className="btn btn-dark" style={ShowUpButton} onClick={this.handleClick}>Show Up!</button>
                         <Icon imgName={Spring_photo} starRating={2} iconName={"Spring"} alt={"Spring_Icon"}/>
                     </td>
 
                     <td style={TechStack}>
+                        <button type="button" className="btn btn-dark" style={ShowUpButton} onClick={this.handleClick}>Show Up!</button>
                         <Icon imgName={Sql_photo} starRating={2} iconName={"Sql"} alt={"Sql_Icon"}/>
                     </td>
                     <td style={TechStack}>
+                        <button type="button" className="btn btn-dark" style={ShowUpButton} onClick={this.handleClick}>Show Up!</button>
                         <Icon imgName={MongoDB_photo} starRating={1} iconName={"MongoDB"} alt={"MongoDB_Icon"}/>
                     </td>
 
                     <td style={TechStack}>
+                        <button type="button" className="btn btn-dark" style={ShowUpButton} onClick={this.handleClick}>Show Up!</button>
                         <Icon imgName={Linux_photo} starRating={1} iconName={"Linux"} alt={"Linux_Icon"}/>
                     </td>
                     <td style={TechStack}>
+                        <button type="button" className="btn btn-dark" style={ShowUpButton} onClick={this.handleClick}>Show Up!</button>
                         <Icon imgName={Json_photo} starRating={2} iconName={"Json"} alt={"Json_Icon"}/>
                     </td>
                     <td style={TechStack}>
+                        <button type="button" className="btn btn-dark" style={ShowUpButton} onClick={this.handleClick}>Show Up!</button>
                         <Icon imgName={Gitflow_photo} starRating={3} iconName={"Gitflow"} alt={"Gitflow_Icon"}/>
                     </td>
                     <td style={TechStack}>
+                        <button type="button" className="btn btn-dark" style={ShowUpButton} onClick={this.handleClick}>Show Up!</button>
                         <Icon imgName={Jira_photo} starRating={3} iconName={"Jira"} alt={"Jira_Icon"}/>
                     </td>
                     <td style={TechStack}>
+                        <button type="button" className="btn btn-dark" style={ShowUpButton} onClick={this.handleClick}>Show Up!</button>
                         <Icon imgName={RestApi_photo} starRating={2} iconName={"RestApi"} alt={"RestApi_Icon"}/>
                     </td>
                     </div>
