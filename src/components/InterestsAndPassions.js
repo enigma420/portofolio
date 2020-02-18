@@ -22,6 +22,7 @@ class InterestsAndPassions extends Component {
             <div className="row" style={ParagrafProjectsStack} >
                     <div className="column">
                         <h2>ZAINTERESOWANIA</h2>
+                        <hr/>
                         <ul style={ListParameters}>
                             <li>Inżynieria Oprogramowania</li>
                             <li>Automatyka(Sterowniki PLC, Procesy Technologiczne)</li>
@@ -32,6 +33,7 @@ class InterestsAndPassions extends Component {
                     </div>
                     <div className="column">
                         <h2>HOBBY</h2>
+                        <hr/>
                         <ul style={ListParameters} >
                             <li>
                                 Sport:

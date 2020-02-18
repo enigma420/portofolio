@@ -36,6 +36,7 @@ class ProjectTable extends Component {
             <div style={ProjectsStackTable}>
                 <p style={ParagrafProjectsStack}>
                     <h2 >PROJEKTY</h2>
+                    <hr/>
                     <td style={ProjectsStackStyles} className="ProjectElement">
                         <Projects  imgName={dtgcrew} iconName={"Dtg Crew"} alt={"DtgCrew_Icon"}/>
                     </td>
