@@ -4,6 +4,7 @@ import ProjectTable from "./ProjectTable";
 import InterestsAndPassions from "./InterestsAndPassions";
 import Education from "./Education";
 import EducationTechStack from "./EducationTechStack";
+import Languages from "./Languages";
 
 
 class TechnologicalStack extends Component {
@@ -19,6 +20,8 @@ class TechnologicalStack extends Component {
                <Education/>
                <hr/>
                <EducationTechStack/>
+               <hr/>
+               <Languages/>
             </div>
         );
     }
