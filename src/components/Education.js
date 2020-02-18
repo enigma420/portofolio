@@ -27,6 +27,7 @@ class Education extends Component {
                             <h6>Kierunek: Elektrotechnika</h6>
                             <h6>Specjalność: Elektronika Przemysłowa (Automatyka)</h6>
                             <h6>Stypendium naukowe za osiągniecia w nauce 2016/2017</h6>
+                            <hr/>
                         </div>
 
                         <div className="column col-md-5">2015 - 2016</div>
@@ -34,6 +35,7 @@ class Education extends Component {
                             <strong>Politechnika Warszawska (Stacjonarne I Stopnia)</strong>
                             <h6>Wydział: Transport</h6>
                             <h6>Kierunek: Transport</h6>
+                            <hr/>
                         </div>
                         <div className="column col-md-5">2012 - 2015</div>
                         <div className="column col-md-6">
