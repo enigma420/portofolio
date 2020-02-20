@@ -5,6 +5,7 @@ html, body {
     width: 100%;
     height: 100%;
     position: relative;
+
 }
 
 @font-face {
@@ -220,13 +221,13 @@ html, body {
     justify-content: space-between;
     align-items: center;
     overflow: hidden;
+width: 100%;
+    margin-top:2%;
+
+
+
 }
-.container img{
-    margin-top: 2px;
-    height: auto;
-    width:40%;
-    max-width: 100%;
-}
+
 
 img {
     border-radius: 20px;
@@ -354,4 +355,21 @@ img {
 
 .column {
     flex: 50%;
+}
+
+
+.simple-trans-main {
+    cursor: pointer;
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 200;
+    font-size: 25px;
+    will-change: transform, opacity;
+    text-shadow: 0px 2px 40px #00000020, 0px 2px 5px #00000030;
+
 }
