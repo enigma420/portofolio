@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
 import TechStackIconTable from "./TechStackIconTable";
 import ProjectTable from "./ProjectTable";
-import InterestsAndPassions from "./InterestsAndPassions";
 import Education from "./Education";
-import EducationTechStack from "./EducationTechStack";
+import InterestsAndPassions from "./InterestsAndPassions";
 import Languages from "./Languages";
 import Certification from "./Certification";
+import Rungs from "./Rungs"
 
 
 class TechnologicalStack extends Component {
@@ -15,16 +15,16 @@ class TechnologicalStack extends Component {
                <TechStackIconTable/>
                <hr/>
                <ProjectTable/>
-               <hr/>
-               <InterestsAndPassions/>
+<Rungs  items={'Lorem ipsum dolor sit dsadsa'.split(' ')}/>
                <hr/>
                <Education/>
-               <hr/>
-               <EducationTechStack/>
                <hr/>
                <Languages/>
                <hr/>
                <Certification/>
+               <hr/>
+               <InterestsAndPassions/>
+
             </div>
         );
     }

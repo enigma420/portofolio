@@ -1,32 +1,48 @@
-import React, {Component} from 'react';
-import portofolio from '../img/portofolio.png';
 
-class Introduction extends Component {
-    constructor() {
-        super();
-        this.state={
+import React, { useState, useCallback } from 'react'
 
-        }
-    }
-    render() {
-        return (
-            <div className="container">
-                <img src={portofolio} alt="portofolio_logo" />
-                <div className="quadrate_left" id="tree" style={{animationName:'example_quadrate_1'}}>
-                    Wykształcenie
-                </div>
-                <div className="quadrate_left" style={{animationName:'example_quadrate_2'}}>
-                    Dane Osobowe
-                </div>
-                <div className="quadrate_left" style={{animationName:'example_quadrate_3'}}>
-                    Kim jestem?
-                </div>
-                <span className="quadrate_left" style={{animationName:'example_quadrate_4'}}>
-                    Czego szukam?
-                </span>
-            </div>
-        );
-    }
+import { useTransition, animated } from 'react-spring'
+
+const animatedStyle = {
+    background: 'lightblue',
+    width:'100%' ,
+    height:'100%' ,
+    alignItems:'center' ,
+    justifyContent:"center",
+    display:'flex'
 }
 
-export default Introduction;
+const pages = [
+    ({ style }) =>
+        <animated.div style={{ ...style, animatedStyle }}>
+
+            <h1>NACIŚNIJ !!!</h1>
+        </animated.div>,
+    ({ style }) => <animated.div style={{ ...style,animatedStyle }}>My</animated.div>,
+    ({ style }) => <animated.div style={{ ...style,animatedStyle }}>Name</animated.div>,
+]
+
+export default function Introduction() {
+
+   
+    const [index, set] = useState(0)
+    const onClick = useCallback(() => set(state => (state + 1) % 3), [])
+    const transitions = useTransition(index, p => p, {
+        from: { opacity: 1, transform: 'translate3d(-100%,0,0)' },
+        enter: { opacity: 1, transform: 'translate3d(0%,0,0)' },
+        leave: { opacity: 1, transform: 'translate3d(0%,0,0)' },
+    })
+    return (
+
+        <div className="container">
+        <div className="simple-trans-main" onClick={onClick}>
+            {transitions.map(({ item, props, key }) => {
+                const Page = pages[item]
+                return <Page key={key} style={props} />
+            })}
+        </div>
+        </div>
+
+    )
+}
+
