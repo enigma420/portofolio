@@ -1,0 +1,65 @@
+{
+  "header": {
+    "welcomeText": "Hello on my Portofolio !"
+  },
+  "introduction": {
+    "first": "CLICK !",
+    "second": "Hello my name is Dominik and im programmer"
+  },
+  "techStack": {
+    "title": "TECHNOLOGICAL STACK"
+  },
+  "projects": {
+    "title": "PROJECTS",
+    "info": "Information",
+    "modal": {
+      "close": "Close"
+    }
+  },
+  "education": {
+    "title": "EDUCATION",
+    "electroStudy": "Warsaw University Technology (Full-time, Engineer)",
+    "electroDepartment": "Department: Electrical",
+    "electroSpecialization": "Specialization: Electrotechnics",
+    "electroSpeciality": "Specialty: Industrial Electronics (Automation)",
+    "electroScholarship": "Scientific scholarship for achievements in 2016/2017",
+    "transportStudy": "Warsaw University Technology (Full-time, Engineer)",
+    "transportDepartment": "Department: Transport",
+    "transportSpecialization": "Specialization: Transport"
+  },
+  "languages": {
+    "title": "LANGUAGES",
+    "english": "English Language",
+    "englishKnowledge": "Communicative (B2 ACERT)",
+    "sign": "Sign Language",
+    "signKnowledge": "Communicative"
+  },
+  "certificate": "CERTIFICATES",
+  "interests": {
+    "title": "INTERESTS",
+    "first": "Software engineering",
+    "second": "Automation (PLC controllers, Technological Processes)",
+    "third": "Electronic",
+    "fourth": "Control (Process Automation)",
+    "fifth": "Medicine (Neurological / Immunological System)"
+  },
+  "hobbies": {
+    "first": "Sport:",
+    "second": "Gym",
+    "third": "Cycling",
+    "fourth": "Swimming",
+    "fifth": "Cinematography",
+    "sixth": "Music 50'-80'",
+    "seventh": "Healthy lifestyle"
+  },
+  "footer": {
+    "title": "KEYWORDS"
+  },
+  "modal": {
+    "githubCode": "Github Code",
+    "readMe": "Read Me",
+    "techStack": "Stack Technology",
+    "projectInfo": "Project Information"
+  }
+}
+

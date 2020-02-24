@@ -1,20 +1,23 @@
 import React, {Component} from 'react';
+
 const ProjectsStackTable = {
     margin: "auto",
 };
 const ParagrafProjectsStack = {
     textShadow: "-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black",
     margin: 2,
-    textAlign:'center',
+    textAlign: 'center',
     fontFamily: "'Vergana' , sans-serif",
     color: 'whitesmoke',
 
 };
-class EducationTechStack extends Component {
-    render() {
+
+class EducationTechnologyStack extends Component {
+
+    EducationStack() {
         return (
-            <div style={ProjectsStackTable} >
-                <p style={ParagrafProjectsStack}>
+            <div style={ProjectsStackTable}>
+                <div style={ParagrafProjectsStack}>
                     <h2>AKADEMICKI STOS TECHNOLOGICZNY</h2>
                     <hr/>
                     <div className="row">
@@ -34,16 +37,24 @@ class EducationTechStack extends Component {
                         </div>
                         <div className="column col-md-4">
                             <ul>
-                                <li>Język C,C++,C#</li>
+                                <li>C,C++,C#</li>
                                 <li>LabView</li>
-                                <li>Pakiet MS Office</li>
+                                <li>MS Office</li>
                             </ul>
                         </div>
                     </div>
-                </p>
+                </div>
             </div>
+        )
+    }
+
+    render() {
+        return (
+            <>
+                {this.EducationStack()}
+            </>
         );
     }
 }
 
-export default EducationTechStack;
+export default EducationTechnologyStack;

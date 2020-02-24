@@ -1,55 +1,14 @@
 html, body {
-    margin: 0;
-    border: 0;
-    padding: 0;
+
     width: 100%;
-    height: 100%;
+    height: 3555px;
     position: relative;
-
-}
-
-@font-face {
-    font-family: '&Matchmaker';
-    font-style: normal;
-    font-weight: normal;
-    src: local('&Matchmaker'), url('fonts/&Matchmaker.ttf') format('truetype');
-}
-
-
-/*Header*/
-.UpperHeader {
-    background-color: deepskyblue;
-    height: 47px;
-    border-bottom: 2px groove whitesmoke;
-    position: fixed;
-    width: 100%;
-    z-index: 1;
-}
-
-.mail {
-    text-decoration: none;
-    color: whitesmoke;
-    font-family: 'Acme', cursive;
-    font-size: 16px;
+    z-index: 999;
 }
 
 .mail:hover {
-    color: dimgrey;
-}
-
-.HeaderFlags {
-    height: 100%;
-    float: right;
-    margin-right: 15px;
-    position: sticky;
-}
-
-.HeaderSocialMedias {
-    float: right;
-    transform: translateY(10%);
-    border-left: 1px solid whitesmoke;
-    padding-left: 10px;
-    margin-right: 10px;
+    color: dodgerblue;
+    text-decoration: none;
 }
 
 /*ICONS (font-awesome)*/
@@ -62,59 +21,58 @@ html, body {
 .fa-envelope {
     padding: 10px;
     margin-left: 5px;
+    font-size: 20px;
 }
 
 .fa-envelope:hover {
-    color: dimgrey;
+    color: dodgerblue;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .fa-facebook {
     padding: 6px;
+    font-size: 25px;
 }
 
 .fa-github {
-    padding: 6px;
+    padding: 8px;
+    font-size: 25px;
 }
 
 .fa-linkedin {
     padding: 6px;
+    font-size: 25px;
 }
 
 .fa-github:hover {
-
     transform: scale(1.20);
     color: #24292e;
+    text-decoration: none;
 }
 
 .fa-linkedin:hover {
-
     transform: scale(1.20);
     color: #006097;
+    text-decoration: none;
 }
 
 .fa-facebook:hover {
     transform: scale(1.20);
     color: #3B5998;
+    text-decoration: none;
 }
 
 @media (max-width: 500px) {
     .fa-envelope {
         visibility: hidden;
     }
-
     .mail {
         visibility: hidden;
     }
-
     .fa {
         visibility: hidden;
     }
-
-    .flag-icon {
-        visibility: hidden;
-    }
-
     .HeaderSocialMedias {
         visibility: hidden;
     }
@@ -136,13 +94,12 @@ html, body {
     padding-top: 15px;
     margin-top: auto;
     left: 1%;
-
 }
 
 /* Animation */
 .anim-typewriter {
-    animation: typewriter 12s steps(70) 1s 1 normal both,
-    blinkTextCursor 500ms steps(70) infinite normal;
+    animation: typewriter 5s steps(50) 1s 1 normal both,
+    blinkTextCursor 1000ms steps(50) infinite normal;
 }
 
 @keyframes typewriter {
@@ -150,7 +107,7 @@ html, body {
         width: 0;
     }
     to {
-        width: 530px;
+        width: 280px;
     }
 }
 
@@ -163,28 +120,6 @@ html, body {
     }
 }
 
-/*END HEADER*/
-
-/*<===================================================================>*/
-
-/*FLAGS ICONS*/
-.flag-icon {
-    transform: translateY(70%);
-    margin: 5px;
-    font-size: 17px;
-    float: right;
-    display: inline-block;
-
-}
-
-.flag-icon:hover {
-    opacity: 0.9;
-    cursor: pointer;
-    box-shadow: 0 0 0 #00FFFF;
-    animation: pulse 1s infinite;
-}
-
-/*Pulse animation icons*/
 
 @-webkit-keyframes pulse {
     0% {
@@ -215,124 +150,24 @@ html, body {
 
 /*INTRODUCTION*/
 .container {
-    background: cadetblue;
+    background-color: #505050;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     overflow: hidden;
-width: 100%;
-    margin-top:2%;
-
-
-
+    height: auto;
+    width: 65%;
+    border-radius: 10px;
+    margin-top: 2%;
 }
-
 
 img {
     border-radius: 20px;
 }
-.quadrate_left{
-    background-image: linear-gradient(270deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-    -webkit-animation-fill-mode: forwards;
-    animation-timing-function: ease-in-out;
-    -webkit-animation-timing-function:ease-in-out;
-    min-width: 12%;
-    min-height: 25px;
-    max-height: 230px;
-    max-width: 260px;
-    margin-top: 5px;
-    margin-bottom: 3px;
-    resize: both;
-    overflow: hidden;
-    text-align: center;
-    font-size: 20px;
-    color:whitesmoke;
-    font-family: 'Acme', cursive;
-    border-radius: 5px;
-    border: 3px solid dodgerblue;
-    position: relative;
-    box-sizing: border-box;
 
-
-}
-
-@keyframes example_quadrate_1 {
-    0% {
-        background-color: yellow;
-        right: 0;
-        top: 0;
-    }
-    50% {
-        background-color: yellow;
-        right: 28%;
-        top: 0;
-    }
-    100% {
-        background-color: yellow;
-        right: 28%;
-        top: -72%;
-    }
-}
-@keyframes example_quadrate_2 {
-    0% {
-        background-color: yellow;
-        right: 0;
-        top: 0;
-    }
-    50% {
-        background-color: yellow;
-        right: 42%;
-        top: 0;
-    }
-    100% {
-        background-color: yellow;
-        right: 42%;
-        top: -79%;
-    }
-}
-@keyframes example_quadrate_3 {
-    0% {
-        background-color: yellow;
-        right: 0;
-        top: 0;
-    }
-    50% {
-        background-color: yellow;
-        right: -28%;
-        top: 0;
-    }
-    100% {
-        background-color: yellow;
-        right: -28%;
-        top: -86%;
-    }
-}
-@keyframes example_quadrate_4 {
-    0% {
-        background-color: yellow;
-        right: 0;
-        top: 0;
-    }
-    50% {
-        background-color: yellow;
-        right: -42%;
-        top: 0;
-    }
-    100% {
-        background-color: yellow;
-        right: -42%;
-        top: -93%;
-    }
-}
-
-
-
-/*Parallax*/
-.TechnologicalStack{
-  width: 100%;
+.TechnologicalStack {
+    width: 100%;
     height: 1500px;
     display: flex;
     flex-direction: column;
@@ -341,12 +176,9 @@ img {
     overflow: hidden;
 }
 
-
-
-
-.ProjectElement:hover{
-    opacity:0.8;
-    transform:scale(1.2);
+.ProjectElement:hover {
+    opacity: 0.8;
+    transform: scale(1.1);
 }
 
 .row {
@@ -357,19 +189,23 @@ img {
     flex: 50%;
 }
 
+#box {
+    -webkit-transition: border 1000ms ease-out;
+    -moz-transition: border 1000ms ease-out;
+    -o-transition: border 1000ms ease-out;
+}
 
-.simple-trans-main {
-    cursor: pointer;
-    position: relative;
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-weight: 200;
-    font-size: 25px;
-    will-change: transform, opacity;
-    text-shadow: 0px 2px 40px #00000020, 0px 2px 5px #00000030;
+#box:hover {
+    border: 10px solid gold;
+}
 
+.flag-select img {
+    width: 25px;
+    height: 15px;
+}
+
+.flag-select {
+    text-align: center;
+    background-color: #888888;
+    padding: 2px
 }

@@ -1,0 +1,132 @@
+SPORT API
+
+
+
+<>
+                <Tree name="Projekt Sport_Api" defaultOpen>
+                    <Tree name="Back-end">
+                        <Tree name="Java"/>
+                        <Tree name="Spring">
+                            <Tree name="Hibernate"/>
+                            <Tree name="gson"/>
+                            <Tree name="Security"/>
+                            <Tree name="JWT"/>
+                            <Tree name="Websocket"/>
+                        </Tree>
+                    </Tree>
+                    <Tree name="Front-end">
+                        <Tree name="JavaScript" style={{color: '#37ceff'}}>
+                            <Tree name="jQuery"/>
+                        </Tree>
+                        <Tree name="React" style={{color: '#37ceff'}}>
+                            <Tree name="Axios"/>
+                            <Tree name="Redux"/>
+                            <Tree name="jwt-decode"/>
+                            <Tree name="classnames"/>
+                            <Tree name="prop-types"/>
+                            <Tree name="reactstrap"/>
+                        </Tree>
+                        <Tree name="HTML5" style={{color: '#37ceff'}}>
+                            <Tree name="Bootstrap"/>
+                        </Tree>
+                        <Tree name="CSS" style={{color: '#37ceff'}}/>
+                        <Tree name="Others" style={{color: '#37ceff'}}>
+                            <Tree name="Country-list"/>
+                            <Tree name="Date-and-Time"/>
+                            <Tree name="i18next"/>
+                            <Tree name="moment"/>
+                            <Tree name="random-sentence"/>
+                            <Tree name="number-format"/>
+                            <Tree name="react-live-clock"/>
+                        </Tree>
+                    </Tree>
+                    <Tree name="Databases">
+                        <Tree name="MySQL"/>
+                        <Tree name="H2"/>
+                    </Tree>
+                </Tree>
+            </>
+
+
+DTGCrew
+
+<>
+                <Tree name="Projekt DTGCrew" defaultOpen>
+                    <Tree name="Back-end">
+                        <Tree name="None"/>
+                    </Tree>
+                    <Tree name="Front-end">
+                        <Tree name="JavaScript" style={{color: '#37ceff'}}/>
+                        <Tree name="React" style={{color: '#37ceff'}}>
+                            <Tree name="Axios"/>
+                            <Tree name="Reactstrap"/>
+                        </Tree>
+                        <Tree name="HTML5" style={{color: '#37ceff'}}>
+                            <Tree name="Bootstrap"/>
+                        </Tree>
+                        <Tree name="CSS" style={{color: '#37ceff'}}/>
+                        <Tree name="Others" style={{color: '#37ceff'}}>
+                            <Tree name="Emailjs-com"/>
+                            <Tree name="react-mapbox-gl"/>
+                            <Tree name="react-image-gallery"/>
+                            <Tree name="react-insta-stories"/>
+                        </Tree>
+                    </Tree>
+                    <Tree name="Databases">
+                        <Tree name="None"/>
+                    </Tree>
+                </Tree>
+            </>
+
+JIRA
+
+<>
+                <Tree name="Projekt Jira" defaultOpen>
+                    <Tree name="Back-end">
+                        <Tree name="Java"/>
+                        <Tree name="Spring">
+                            <Tree name="Hibernate"/>
+                            <Tree name="gson"/>
+                            <Tree name="Security"/>
+                            <Tree name="JWT"/>
+                            <Tree name="Websocket"/>
+                        </Tree>
+                    </Tree>
+                    <Tree name="Front-end">
+                        <Tree name="JavaScript" style={{color: '#37ceff'}}/>
+                        <Tree name="React" style={{color: '#37ceff'}}>
+                            <Tree name="Axios"/>
+                            <Tree name="Redux"/>
+                            <Tree name="jwt-decode"/>
+                            <Tree name="classnames"/>
+                            <Tree name="prop-types"/>
+                            <Tree name="reactstrap"/>
+                        </Tree>
+                        <Tree name="HTML5" style={{color: '#37ceff'}}>
+                            <Tree name="Bootstrap"/>
+                        </Tree>
+                        <Tree name="CSS" style={{color: '#37ceff'}}/>
+                        <Tree name="Others" style={{color: '#37ceff'}}>
+                            <Tree name="None"/>
+                        </Tree>
+                    </Tree>
+                    <Tree name="Databases">
+                        <Tree name="MySQL"/>
+                        <Tree name="H2"/>
+                    </Tree>
+                </Tree>
+            </>
+
+OPC-SERVER
+
+<>
+                <Tree name="Projekt OPC_Server" defaultOpen>
+                    <Tree name="Back-end and Front-end">
+                        <Tree name="C#"/>
+                    </Tree>
+                    <Tree name="Databases">
+                        <Tree name="MySQL"/>
+                        <Tree name="H2"/>
+                    </Tree>
+                </Tree>
+            </>

@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {Trans} from "react-i18next";
 
 const ProjectsStackTable = {
     margin: "auto",
@@ -6,25 +7,33 @@ const ProjectsStackTable = {
 const ParagrafProjectsStack = {
     textShadow: "-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black",
     margin: 2,
-    textAlign:'center',
+    textAlign: 'center',
     fontFamily: "'Vergana' , sans-serif",
     color: 'whitesmoke',
 
 };
 
-
 class Certification extends Component {
-    render() {
+
+    Certification() {
         return (
-            <div style={ProjectsStackTable} >
-                <p style={ParagrafProjectsStack}>
-                    <h2>CERTYFIKATY</h2>
+            <div style={ProjectsStackTable}>
+                <div style={ParagrafProjectsStack}>
+                    <h2><Trans i18nKey="certificate"/></h2>
                     <hr/>
                     <ul>
                         <li><strong>Cisco CCNA Routing and Switching: Indtroduction to Networks</strong></li>
                     </ul>
-                </p>
+                </div>
             </div>
+        )
+    }
+
+    render() {
+        return (
+            <>
+                {this.Certification()}
+            </>
         );
     }
 }

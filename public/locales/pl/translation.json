@@ -1,0 +1,65 @@
+{
+  "header":{
+    "welcomeText": "Witam Serdecznie na moim Portofolio !"
+  },
+  "introduction": {
+
+    "first": "NACIŚNIJ !",
+    "second": "Mam na imię Dominik i chciałbym zostać programistą"
+  },
+  "techStack": {
+    "title": "STOS TECHNOLOGICZNY"
+  },
+  "projects": {
+    "title": "PROJEKTY",
+    "info": "Informacje",
+    "modal": {
+      "close": "Zamknij"
+    }
+  },
+  "education": {
+    "title": "EDUKACJA",
+    "electroStudy": "Politechnika Warszawska (Stacjonarne I Stopnia)",
+    "electroDepartment": "Wydzial: Elektryczny",
+    "electroSpecialization": "Kierunek: Elektrotechnika",
+    "electroSpeciality": "Specjalnosc: Elektronika Przemyslowa (Automatyka)",
+    "electroScholarship": "Stypendium naukowe za osiagniecia w nauce 2016/2017",
+    "transportStudy": "Politechnika Warszawska (Stacjonarne I Stopnia)",
+    "transportDepartment": "Wydzial: Transport",
+    "transportSpecialization": "Kierunek: Transport"
+  },
+  "languages": {
+    "title": "JEZYKI OBCE",
+    "english": "Angielski",
+    "englishKnowledge": "Komunikatywny (B2 ACERT)",
+    "sign": "Migowy",
+    "signKnowledge": "Komunikatywny"
+  },
+  "certificate": "CERTYFIKATY",
+  "interests": {
+    "title": "ZAINTERESOWANIA",
+    "first": "Inzyniera Oprogramowania",
+    "second": "Automatyka (Sterowniki PLC, Procesy Technologiczne)",
+    "third": "Elektronika",
+    "fourth": "Sterowanie (Automatyzacja Procesów)",
+    "fifth": "Medycyna (Uklad neurologiczny/immulogiczny)"
+  },
+  "hobbies":{
+    "first": "Sport:",
+    "second": "Silownia",
+    "third": "Kolarstwo",
+    "fourth": "Plywanie",
+    "fifth": "Kinematografia",
+    "sixth": "Muzyka 50'-80'",
+    "seventh": "Zdrowy Tryb Zycia"
+  },
+  "footer": {
+    "title": "SLOWA KLUCZ"
+  },
+  "modal": {
+    "githubCode": "Github Kod",
+    "readMe": "Instrukcja",
+    "techStack": "Stos Technologiczny",
+    "projectInfo": "Informacje o Projekcie"
+  }
+}
