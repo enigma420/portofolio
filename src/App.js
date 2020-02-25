@@ -41,11 +41,11 @@ function Page() {
   return (
     <>
 
+        {ChooseLanguage()}
 
         {/* eslint-disable-next-line react/jsx-pascal-case */}
-            <Parallax_Effect>
-                {ChooseLanguage()}
-            </Parallax_Effect>
+            <Parallax_Effect/>
+
 
             </>
   );

@@ -21,14 +21,16 @@ const projectIconNameParameter = {
     marginTop: 5,
     textShadow: "-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black",
     fontWeight: 'bolder'
-}
+};
 
 class Projects extends Component {
 
     ProjectItemDesign() {
         return (
             <div className="column" style={projectIcon}>
-                <img src={this.props.imgName} style={projectIconParameters} alt={this.props.alt}/>
+                <a href={this.props.githubHref}>
+                    <img src={this.props.imgName} alt={this.props.alt} style={projectIconParameters}/>
+                </a>
                 <h1 style={projectIconNameParameter}>{this.props.iconName}</h1>
             </div>
         )

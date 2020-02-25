@@ -5,11 +5,13 @@
   "introduction": {
 
     "first": "NACIŚNIJ !",
-    "second": "Mam na imię Dominik i chciałbym zostać programistą"
+    "second": "Mam na imię Dominik Nowak",
+    "third": "Chciałbym zostać programistą w języku Java lub Javascript(React). Szukam pracy jako junior w celu nabycia pierwszego doświadczenia na terenie Warszawy. Swoją przygodę z programowaniem zacząłem około 1.5 roku temu gdy chciałem utworzyć Serwer integrujący urządzenia automatyki z systemami informatycznymi. Od tamtej pory systematycznie rozwijam umiejętności zarówno we Front-end jak i Back-end."
   },
   "techStack": {
     "title": "STOS TECHNOLOGICZNY"
   },
+  "tiles": "STOS TECHNOLOGICZNY",
   "projects": {
     "title": "PROJEKTY",
     "info": "Informacje",

@@ -1,9 +1,12 @@
-html, body {
-
+html,body{
+    background-image: url("../src/img/parallax/parallax_1.jpg");
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
-    height: 3555px;
+    display: block;
     position: relative;
-    z-index: 999;
+    overflow: hidden;
 }
 
 .mail:hover {
