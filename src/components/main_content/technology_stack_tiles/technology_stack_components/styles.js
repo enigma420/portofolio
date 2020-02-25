@@ -1,12 +1,6 @@
 import {animated} from 'react-spring'
 import styled, {createGlobalStyle} from 'styled-components'
 
-const Global = createGlobalStyle`
-  * {
-    box-sizing: border-box;
-  
-  }
-`;
 const Container = styled(animated.div)`
   
   position: relative;
@@ -18,6 +12,10 @@ const Container = styled(animated.div)`
   cursor: pointer;
   box-shadow: 0px 10px 10px -5px rgba(0, 0, 0, 0.05);
   will-change: width, height;
+  &:hover{
+  opacity:0.85;
+  }
+  
   
 `;
 const Item = styled(animated.div)`
@@ -61,4 +59,4 @@ const toggle = {
     verticalAlign: 'middle',
 };
 
-export {Global, Container, Item, Frame, Content, toggle, Title}
+export {Container, Item, Frame, Content, toggle, Title}

@@ -10,7 +10,7 @@ const UpperHeader = {
     position: "fixed",
     width: "100%",
     zIndex: 1
-}
+};
 
 const mail = {
     textDecoration: "none",
@@ -18,14 +18,14 @@ const mail = {
     fontFamily: "'Acme', cursive",
     fontSize: 16,
     textShadow: "-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black"
-}
+};
 
 const HeaderSocialMedias = {
     float: "right",
     transform: "translateY(10%)",
     paddingLeft: 10,
     marginRight: 10
-}
+};
 
 class Header extends Component {
 

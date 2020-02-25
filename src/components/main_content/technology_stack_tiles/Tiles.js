@@ -3,14 +3,8 @@ import {useTransition, useSpring, useChain, config} from 'react-spring'
 import {Container, Item} from './technology_stack_components/styles'
 import data from './technology_stack_components/Data'
 import Icon from "./technology_stack_components/Icon";
+import {Trans} from "react-i18next";
 
-
-const TechStack = {
-
-    margin: "auto",
-    display: "inline-block",
-    alignItems:'center'
-};
 const TechStackTable = {
 
     alignItems:'center'
@@ -36,8 +30,8 @@ export default function App() {
     const {size, opacity, ...rest} = useSpring({
         ref: springRef,
         config: config.stiff,
-        from: {width: '90%', background: 'gold', marginLeft:'5%',borderRadius:'15px'},
-        to: {border: open ? "1px solid black":"1px solid black" , size: open ? '100%' : '10%', width: open ? '90%' : '90%', marginLeft: open ? '5%' : '5%' ,background: open ? 'white' : 'deepskyblue'}
+        from: {border:"10px solid orange",width: '90%', background: 'gold', marginLeft:'5%',borderRadius:'15px'},
+        to: {border: open ? "10px solid orange":"10px solid orange" , size: open ? '100%' : '10%', width: open ? '90%' : '90%', marginLeft: open ? '5%' : '5%' ,background: open ? '#fefbd8' : 'gold', opacity: open ? '1.0' : "0.5"}
     });
 
     const transRef = useRef();
@@ -53,14 +47,16 @@ export default function App() {
     // This will orchestrate the two animations above, comment the last arg and it creates a sequence
     useChain(open ? [springRef, transRef] : [transRef, springRef], [0, open ? 0.1 : 0.6]);
 
+
+
+
     return (
         <>
             <div style={TechStackTable}>
                 <div style={ParagrafTechStack}>
                     <hr style={hr}/>
-                    <h2>STOS TECHNOLOGICZNY</h2>
+                    <h2><Trans i18nKey="tiles"/></h2>
                     <hr/>
-            {/*<h2 style={{textAlign: 'center'}}>Technology Stack</h2>*/}
             <Container style={{...rest, height: size}} onClick={() => set(open => !open)}>
                 {transitions.map(({item, key, props}) => (
                     <Item key={key} style={{...props,background: item.css}}>

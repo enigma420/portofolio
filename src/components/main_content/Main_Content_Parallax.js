@@ -1,6 +1,4 @@
 import React, {Component} from 'react';
-import {Parallax} from 'react-parallax';
-import photo from '../../img/parallax/parallax_1.jpg'
 import Introduction from "./information_collection/Introduction";
 import Tiles from "./technology_stack_tiles/Tiles";
 import ProjectTable from "./projects_content/ProjectTable";
@@ -47,7 +45,7 @@ class ParallaxEffect extends Component {
         return (
             <>
                 <Header/>
-                <Parallax bgImage={photo} strength={3550}>
+
                     <div style={{height: '950px'}}>
                         <div style={UpperStylesParallax}>
                             <div style={UpperStyles}>
@@ -66,7 +64,7 @@ class ParallaxEffect extends Component {
                             </div>
                         </div>
                     </div>
-                </Parallax>
+
                 <Footer/>
             </>
         )
